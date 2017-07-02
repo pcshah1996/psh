@@ -1,6 +1,8 @@
 #ifndef BUILTIN_H
 #define BUILTIN_H
 
+int help(char** args);
+
 // Directory management
 int cd(char** args);
 int ls(char** args);
