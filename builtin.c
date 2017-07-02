@@ -1,4 +1,6 @@
-#include builtin.h
+#include "builtin.h"
+
+#include <stdio.h>
 
 int help(char** args) {
     printf("Pet shell");
