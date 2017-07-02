@@ -2,6 +2,8 @@ TARGET = psh
 CC = gcc
 CFLAGS = -Wall
 
+.PHONY: default all clean
+
 HEADERS = psh.h builtin.h
 OBJECTS = psh.o builtin.o
 
